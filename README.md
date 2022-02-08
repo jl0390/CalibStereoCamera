@@ -14,8 +14,6 @@
 	The grid is 9x7
 ### Help Stereo_calib ###
 	stereo_calib.exe command [OPTION]
-	
-  	```
 	|    Option    |  command      |           Description                       |
 	|--------------|:-------------:|--------------------------------------------:|
 	| -c, --camera |  left-aligned |   Index of camera(default:0)                |
@@ -23,8 +21,6 @@
 	| -h, --height | right-aligned |   Height of camera(default:480)             |
 	| -d, --dir    | right-aligned |    Set directory of image                   |
 	| -n, --number | right-aligned | Specify the number of image when make image |
-  	```
-
 ### How to run? ###
 - Test of camera
   Check the camera is running

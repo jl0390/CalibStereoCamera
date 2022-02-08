@@ -38,9 +38,9 @@
 	It calculate the calibration parameter with the images which are in image-list.txt.
 	If don’t specify the image-list.txt, then all images are used in the directory.
 
-	-f : the file which contain the list of image file name
-	-s: the real size of black rectangle in Chessboard.
-	-nx, -ny: the interline count in Chessboard (if Chessboard is 9x7, then nx=8, ny=6)
+	- -f : the file which contain the list of image file name
+	- -s: the real size of black rectangle in Chessboard.
+	- -nx, -ny: the interline count in Chessboard (if Chessboard is 9x7, then nx=8, ny=6)
 
 	After calculation there will be camera_parametersXXX.xml file in the calib directory.
 	The XXX is the count of referenced images.

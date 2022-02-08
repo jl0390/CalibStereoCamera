@@ -12,6 +12,17 @@
 	Make chessboard like on white paper
 	The black/white rectangle size is 25x25mm
 	The grid is 9x7
+### Help Stereo_calib ###
+	stereo_calib.exe command [OPTION]
+  	```
+	|    Option    |  command      |           Description                       |
+	|--------------|:-------------:|--------------------------------------------:|
+	| -c, --camera |  left-aligned |   Index of camera(default:0)                |
+	| -w, –width   |    centered   |   Width of camera(default:1280)             |
+	| -h, --height | right-aligned |   Height of camera(default:480)             |
+	| -d, --dir    | right-aligned |    Set directory of image                   |
+	| -n, --number | right-aligned | Specify the number of image when make image |
+  	```	
 
 ### How to run? ###
 - Test of camera

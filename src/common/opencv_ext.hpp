@@ -1,0 +1,21 @@
+#ifndef OPENCV_EXT_H
+
+#if CV_MAJOR_VERSION >= 4
+
+#define CV_CAP_PROP_FRAME_WIDTH		cv::CAP_PROP_FRAME_WIDTH
+#define CV_CAP_PROP_FRAME_HEIGHT	cv::CAP_PROP_FRAME_HEIGHT
+#define CV_CAP_PROP_FPS				cv::CAP_PROP_FPS
+#define CV_CAP_PROP_FORMAT			cv::CAP_PROP_FORMAT
+
+#define	CV_FOURCC					cv::VideoWriter::fourcc
+
+#define CV_RGB2BGR					cv::COLOR_RGB2BGR
+#define CV_RGBA2BGR					cv::COLOR_RGBA2BGR
+#define	CV_RGBA2BGRA				cv::COLOR_RGBA2BGRA
+
+#define CV_BGR2RGB					cv::COLOR_BGR2RGB
+#define CV_BGRA2RGBA				cv::COLOR_BGRA2RGBA
+
+#endif	//CV_MAJOR_VERSION >= 4
+
+#endif //OPENCV_EXT_H
